@@ -12,10 +12,10 @@ import com.github.instagram4j.instagram4j.exceptions.IGLoginException;
 @SpringBootApplication
 public class MemePostMakerApplication {
 	
-	@Value(value = "${insta.username}")
+	@Value(value = "${meme.username}")
 	private String username;
 	
-	@Value(value = "${insta.password}")
+	@Value(value = "${meme.password}")
 	private String password;
 
 	
