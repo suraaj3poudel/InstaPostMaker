@@ -1,4 +1,4 @@
-package com.instagram.postmaker.instaPostMaker;
+package com.meme.postmaker.memePostMaker;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
@@ -10,7 +10,7 @@ import com.github.instagram4j.instagram4j.IGClient;
 import com.github.instagram4j.instagram4j.exceptions.IGLoginException;
 
 @SpringBootApplication
-public class InstaPostMakerApplication {
+public class MemePostMakerApplication {
 	
 	@Value(value = "${insta.username}")
 	private String username;
@@ -20,7 +20,7 @@ public class InstaPostMakerApplication {
 
 	
 	public static void main(String[] args) {
-		SpringApplication.run(InstaPostMakerApplication.class, args);
+		SpringApplication.run(MemePostMakerApplication.class, args);
 	}
 	
 	@Bean

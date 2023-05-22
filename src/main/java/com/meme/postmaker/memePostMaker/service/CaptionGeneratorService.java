@@ -1,13 +1,15 @@
-package com.instagram.postmaker.instaPostMaker.service;
+package com.meme.postmaker.memePostMaker.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
+
+import com.meme.postmaker.memePostMaker.captionModel.CaptionModel;
+
 import java.net.URI;
 import java.net.URISyntaxException;
-import com.instagram.postmaker.instaPostMaker.captionModel.CaptionModel;
 
 @Service
 public class CaptionGeneratorService {

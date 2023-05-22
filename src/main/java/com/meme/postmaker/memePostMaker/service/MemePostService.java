@@ -1,4 +1,4 @@
-package com.instagram.postmaker.instaPostMaker.service;
+package com.meme.postmaker.memePostMaker.service;
 
 
 import java.io.IOException;
@@ -16,12 +16,12 @@ import com.github.instagram4j.instagram4j.exceptions.IGLoginException;
 
 @Service
 @EnableScheduling 
-public class InstagramPostService {
+public class MemePostService {
 	
-	@Value(value = "${insta.username}")
+	@Value(value = "${random.username}")
 	private String username;
 	
-	@Value(value = "${insta.password}")
+	@Value(value = "${random.password}")
 	private String password;
 	
 	@Autowired

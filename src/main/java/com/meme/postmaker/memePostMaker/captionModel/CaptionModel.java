@@ -1,4 +1,4 @@
-package com.instagram.postmaker.instaPostMaker.captionModel;
+package com.meme.postmaker.memePostMaker.captionModel;
 
 public class CaptionModel {
 	
