@@ -11,10 +11,10 @@ import com.meme.postmaker.memePostMaker.service.MemePostService;
 public class MemePostController {
 	
 	@Autowired
-	MemePostService instaService;
+	MemePostService memeService;
 	
 	@GetMapping("/post")
 	public String post() {
-		return instaService.post();
+		return memeService.post();
 	}
 }
