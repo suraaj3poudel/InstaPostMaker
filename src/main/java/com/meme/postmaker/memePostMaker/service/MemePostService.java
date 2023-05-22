@@ -18,10 +18,10 @@ import com.github.instagram4j.instagram4j.exceptions.IGLoginException;
 @EnableScheduling 
 public class MemePostService {
 	
-	@Value(value = "${random.username}")
+	@Value(value = "${meme.username}")
 	private String username;
 	
-	@Value(value = "${random.password}")
+	@Value(value = "${meme.password}")
 	private String password;
 	
 	@Autowired
